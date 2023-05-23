@@ -1,0 +1,38 @@
+/* portfolio.css */
+
+/* Styles for the navigation bar */
+header {
+    background-color:black;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #b73a3a;
+  }
+  
+  /* Styles for the sections */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    color: #666;
+    line-height: 1.5;
+  }
+  

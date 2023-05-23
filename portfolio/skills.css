@@ -1,0 +1,56 @@
+/* portfolio.css */
+
+/* Styles for the navigation bar */
+header {
+    background-color:black;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Styles for the sections */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .skills h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skills li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .skills li span {
+    color: #666;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="portfolio.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<title>Portfolio</title>
+</head>
+<body>
+    <body>  
+        <header>  
+          <div class="container">  
+            <nav class="flex items-centre justify-between">  
+                <div class="left flex justfiy-right">  
+                <div class="logo">  
+                  <img src=https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=400 width="50px" alt="logo">  
+                </div>  
+                <div>  
+                  <a href="portfolio.html">Home</a>  
+                  <a href="about.html">About</a>  
+                  <a href="skills.html">skills</a>
+                  <a href="contact.html">contact</a>
+                </div>  
+              </div>  
+              
+          </div>  
+        </header>
+        <div>
+            <button class="btn btn-secondary" onclick="window.location.href='resume.pdf'">DOWNLOAD CV</button>
+            <p>Click the button to download my CV in PDF format.</p>
+        </div>
+        <script>
+            document.getElementById('downloadButton').addEventListener('click', function() {
+                var fileUrl = 'https://drive.google.com/uc?export=download&id=YOUR_FILE_ID';
+                window.location.href = fileUrl;
+            });
+        </script>
+        
+            <section class="about">
+                <div class="container flex items-centre">
+                <div class="left flex-1 justify-right">
+                <img src="thirumal1.jpg" height="400px" alt="profile pic">
+                </div>
+                <div class="right flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>KOMMULA THIRUMAL REDDY</h3>
+                <p>
+                    I am Kommula Thirumal Reddy, currently pursuing my 4th year at VJIT College.
+                    I have a strong passion for web development and enjoy creating dynamic and user-friendly websites.
+                    My skills include HTML, basic CSS, and Python.
+                </p>
+                <div class="socials">
+                <a href="https://www.linkedin.com/in/kommula-thirumal-reddy-23817124a"><img src=https://tse1.mm.bing.net/th?id=OIP.HTO2oMUshtFGnA_y_FZhowHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121 width="40px"></a>
+                <a href="https://www.facebook.com/thirumal.kommula.3?mibextid=ZbWKwL"><img src=https://tse1.mm.bing.net/th?id=OIP.6-Etwy2306AInODxxbDK6gHaHY&pid=Api&rs=1&c=1&qlt=95&w=121&h=120 width="40px"></a>
+                <a href="https://instagram.com/nani_reddy_1602?igshid=ZGUzMzM3NWJiOQ=="><img src=https://tse3.mm.bing.net/th?id=OIP.dRHXQZn68C9Ci9gsa3VjPQHaHZ&pid=Api&P=0&h=180 width="40px"></a>
+                <a href="https://github.com/kommula0216"><img src=https://tse1.mm.bing.net/th?id=OIP.sV7tva-728oySeOUL0-vOwHaHa&pid=Api&P=0&h=180 width="40px"></a>
+                </div>
+                </div>
+                </div>
+                </section>
+            
+</body>
+</html>
