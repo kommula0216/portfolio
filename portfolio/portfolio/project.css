@@ -1,0 +1,78 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .project-details {
+    margin-top: 40px;
+  }
+  
+  .project-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-details pre {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .project-details a {
+    color: #212324;
+    text-decoration: none;
+  }
+  
+  .project-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-details h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .project-details {
+    margin-top: 40px;
+  }
+  
+  .project-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-details pre {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .project-details a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .project-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-details h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  a{
+ text-decoration: none;
+  }
+  #navimg{
+    border-radius: 40%;
+    margin-left: 55px;
+}
+    /* Default styling for all anchor tags */
