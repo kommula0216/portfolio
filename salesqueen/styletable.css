@@ -1,0 +1,283 @@
+/* Style for checkbox toggle button group */
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for each button in the group */
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  /* Style for the checked button */
+  .btn-check:checked + .btn {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  /* Style for customer summary section */
+.container.text-center {
+    margin-top: 2rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for active and inactive customer counts */
+  p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  p.active {
+    color: green;
+  }
+  
+  p.inactive {
+    color: red;
+  }
+  
+  p.blue {
+    color: blue;
+  }
+  
+  /* Style for the checkbox and select elements */
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  select {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 1rem;
+  }
+  .table-wrapper {
+    height: 300px;
+    overflow: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  /* Add custom CSS here */
+  .hr-panel-heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .bulk-actions-btn {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+      /* Button group styles */
+      .btn-group {
+          margin-bottom: 20px;
+      }
+      
+      .btn-group .btn-check {
+          display: none;
+      }
+      
+      .btn-group .btn {
+          border-radius: 0;
+      }
+      
+      .btn-group .btn:checked {
+          z-index: 1;
+      }
+      
+      .btn-group .btn-outline-primary {
+          color: #007bff;
+          border-color: #007bff;
+      }
+      
+      .btn-group .btn-outline-primary:hover {
+          color: #fff;
+          background-color: #007bff;
+          border-color: #007bff;
+      }
+      
+      /* Customer summary styles */
+      .customer-summary {
+          margin-top: 20px;
+      }
+      
+      .customer-summary .row {
+          margin-bottom: 10px;
+      }
+      
+      .customer-summary .col {
+          border: 1px solid #e9ecef;
+          padding: 10px;
+          text-align: center;
+      }
+      
+      .customer-summary .col h4 {
+          margin-top: 0;
+          margin-bottom: 5px;
+      }
+      
+      .customer-summary .col p {
+          margin: 0;
+      }
+      
+      .customer-summary .col p.active {
+          color: green;
+      }
+      
+      .customer-summary .col p.inactive {
+          color: red;
+      }
+      
+      .customer-summary .col p.contacts {
+          color: blue;
+      }
+      
+      .customer-summary .col p.contacts.inactive {
+          color: red;
+      }
+      
+      .customer-summary .col p.logged-in {
+          color: black;
+      }
+      
+      /* Contacts Logged In Today popover styles */
+      .popover-title {
+          font-weight: bold;
+          background-color: #007bff;
+          color: #fff;
+      }
+      
+      .popover-content {
+          padding: 0;
+      }
+      
+      .popover-content p {
+          margin: 0;
+          padding: 5px 10px;
+      }
+      
+      .popover-content p a {
+          color: #007bff;
+      }
+      
+      .popover-content p a:hover {
+          color: #0056b3;
+      }
+      
+      .pointer {
+          cursor: pointer;
+          text-decoration: underline;
+      }
+      
+      .text-has-action {
+          color: #007bff;
+      }
+      
+      .text-has-action:hover {
+          color: #0056b3;
+      }
+  *{
+    background-color: aliceblue;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  

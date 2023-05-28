@@ -1,0 +1,763 @@
+*{
+    background-color: #E6E6FA;
+}
+.picture-container {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.picture {
+    width: 170px;
+    height: 170px;
+    background-color: #999999;
+    border: 4px solid #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.picture-src {
+    width: 100%;
+    height: 100%;
+}
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.hr_profile_profile_edit .container{
+    text-align: center;
+    display: flex;
+    justify-content: center;	
+}
+.text-info {
+    color: #0ca7ec !important;
+}
+.ribbon-top-right {
+    top: -10px;
+    right: -10px;
+}
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    text-align: right;
+}
+.ribbon-top-right::before, .ribbon-top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+.ribbon::before, .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid;
+}
+.ribbon-top-right span {
+    left: -8px;
+    top: 30px;
+    transform: rotate(45deg);
+}
+.ribbon-top-right::before {
+    top: 0;
+    left: 36px;
+}
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 8px 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 10px;
+}
+.ribbon span {
+    font-weight: 500;
+    color: #03c;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    display: block;
+    position: absolute;
+    right: -45px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    border-radius: 3px;
+    word-wrap: break-word;
+    border: 1px solid #e2ebf7 !important;
+    box-shadow: 0 0 3px rgba(31,30,47,.05);
+}
+.card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+.bg_inactivity {
+    color: #f72222 !important;
+    font-size: 12px !important;
+    background-color: #c0c0c0b8 !important;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #1C841B;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #1C841B;
+}
+.ribbon span::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+.list-group-item{
+    border-radius: unset;
+    border-left: 0;
+    border-right: 0;
+}
+.box-shadow-0 {
+    box-shadow: none !important;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    border-radius: 3px;
+    word-wrap: break-word;
+    border: 1px solid #e2ebf7 !important;
+    box-shadow: 0 0 3px rgba(31,30,47,.05);
+}
+
+.table-margin-none{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.picture{   
+    background-color: #999999;
+    border: 4px solid #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 10%;
+    margin: 0px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    width: 200px;
+    height: 200px;
+   border-radius: 50%;
+}
+.picture:hover{
+    border-color: #2ca8ff;
+}
+.content.ct-wizard-green .picture:hover{
+    border-color: #05ae0e;
+}
+.content.ct-wizard-blue .picture:hover{
+    border-color: #3472f7;
+}
+.content.ct-wizard-orange .picture:hover{
+    border-color: #ff9500;
+}
+.content.ct-wizard-red .picture:hover{
+    border-color: #ff3b30;
+}
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.picture-src{
+    width: 100%;
+}
+#member_chart{
+	background-color: #f0f0f0;
+}
+
+img.images_w_table {
+    width: 116px;
+    height: 73px;
+}
+
+.h4-color{
+    color: #d8341b;
+}
+
+.hr-color{
+    margin-top: 10px;
+    border-bottom: 0.5px solid;
+     color: #d8341b;
+}
+
+.mright7{
+	margin-right: 7px;
+}
+
+.div_chart{
+	background-color: #fab017;
+	border-radius: 4px 4px 0px 0px;
+	color: white; padding: 5px;min-width: 195px;
+}
+#hot-display-license-info{
+	display: none;
+}
+.input-group.input-group-select.select-contract_type {
+	position: relative;
+    display: table !important;
+    border-collapse: separate;
+}
+.input-group-btn {
+    margin-right: 4%;
+}
+
+.bottom_btn{
+	text-align: center;
+}
+
+.handsontable th {
+  font-weight:bold;
+}
+
+.fontsize10{
+    font-size:10px;
+}
+.padding0{
+    padding:0 !important;
+}
+.style_p{
+    background-color:#c53da9;
+}
+.style_w{
+    background-color:#28B8DA;
+}
+.style_a{
+    background-color:#84C529
+}
+.style_e{
+    background-color:#fb8c00
+}
+.style_l{
+    background-color:#d81b60
+}
+.style_b{
+    background-color:#d81b60
+}
+.style_u{
+    background-color:#A9A9A9
+}
+.style_om{
+    background-color:#A9A9A9
+}
+.style_me{
+    background-color:#fb3b3b
+}
+.style_po{
+    background-color:#c53da9
+}
+.contents-nowrap{
+    display: contents;line-height: 84px;white-space: nowrap;
+}
+.margin-top-0{
+    margin-top: 0px;
+}
+.margin-top-15{
+    margin-top: 15px; color: #d81b60;
+}
+.border-0-5{
+    border: 0.5px solid; color: #d81b60;
+}
+.font-15{
+    text-align: center; font-size: 15px;
+}
+.wh-150-80{
+    width: 150px; height: 80px;
+}
+.wh-500-190{
+    min-width: 500px;min-height: 190px;
+}
+.text-align-left{
+    text-align: left;
+}
+.width-100{
+    width: 100%;
+}
+.create-style{
+    background-color:#0035FF ;border:1px solid #0035FF;
+}
+.approved-style{
+    background-color:#3CD114 ;border:1px solid #3CD114;
+}
+.reject-style{
+    background-color:#FE0000 ;border:1px solid #FE0000;
+}
+.content-nowrap{
+    display: contents;line-height: 84px;white-space: nowrap;
+}
+.max-width-1000{
+    width: 1000px; max-width: 100%;
+}
+.margin-auto{
+    margin: auto;
+}
+.width-80{
+    width: 80%;
+}
+.margin-left-right-15{
+    margin-right: 15px; margin-left: 15px;
+}
+.bottom-approve{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.update-btn{
+    padding-top: 26px;
+    padding-left: 5px;
+}
+.button_add_kpi{
+    padding-left: 0;
+}
+.new_kpi_row{
+    margin-bottom: 5px;
+}
+#clock_attendance_modal .clock{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #dcdcdc;
+    margin: 10px auto 10px auto;
+    position: relative;
+    border:10px solid #bbbab7;
+
+}
+#clock_attendance_modal .center{
+    background-color: #0f0a44;
+    position: absolute;
+    left: calc(50% - 8px);
+    top:  calc(50% - 8px);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    z-index: 20;
+}
+#clock_attendance_modal .hourHand{
+    width: 7px;
+    height: 67px;
+    background-color: #0f0a44;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 23px;
+    left: 87px;
+    z-index: 10;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform: rotate(360deg);
+
+}
+#clock_attendance_modal .minuteHand{
+    width: 4px;
+    height: 68px;
+    background-color: #000;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 22px;
+    left: 87px;
+    z-index: 9;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transform: rotate(90deg);
+
+}
+#clock_attendance_modal .secondHand{
+    width: 2px;
+    height: 78px;
+    background-color:red;
+    transform-origin: bottom center;
+    border-radius: 4px;
+    position: absolute;
+    top: 12px;
+    left: 89px;
+    transition: all 0.06s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    z-index: 18;  
+    transform: rotate(360deg);
+
+}
+#clock_attendance_modal .etime_check_in_out{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    border: 1px solid #fff8dc;
+    background-color: #fff;
+    padding: 5px;
+    display: block;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,.4);
+    border-radius: 5px;
+    min-width: 70px;
+    height: 28px;
+
+}
+#clock_attendance_modal .etime_check_in_out small{
+    color:red;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+#clock_attendance_modal .clock ul{
+    list-style: none;
+    padding: 0;
+
+}
+#clock_attendance_modal .clock ul li{
+    position: absolute;
+    width:20px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    color:red;
+}
+#clock_attendance_modal .clock ul li:nth-child(1){
+    right: 22%;
+    top:6.5%;
+}
+#clock_attendance_modal .clock ul li:nth-child(2){
+    right: 6%;
+    top:25%;
+}
+#clock_attendance_modal .clock ul li:nth-child(3){
+    right: 1%;
+    top:calc(50% - 10px);
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#clock_attendance_modal .clock ul li:nth-child(4){
+    right: 6%;
+    top:69%;
+}
+#clock_attendance_modal .clock ul li:nth-child(5){
+    right: 22%;
+    top:84%;
+}
+#clock_attendance_modal .clock ul li:nth-child(6){
+    right: calc(50% - 10px);
+    top:calc(99% - 20px);
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#clock_attendance_modal .clock ul li:nth-child(7){
+    left: 22%;
+    top:84%;
+}
+#clock_attendance_modal .clock ul li:nth-child(8){
+    left: 6%;
+    top:69%;
+}
+#clock_attendance_modal .clock ul li:nth-child(9){
+    left: 1%;
+    top:calc(50% - 10px);
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#clock_attendance_modal .clock ul li:nth-child(10){
+    left: 6%;
+    top:25%;
+}
+#clock_attendance_modal .clock ul li:nth-child(11){
+    left: 22%;
+    top:6.5%;
+}
+#clock_attendance_modal .clock ul li:nth-child(12){
+    right: calc(50% - 10px);
+    top:1%;
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#clock_attendance_modal .bottom_co_btn{
+    display: flex;
+    justify-content: center;
+}
+#clock_attendance_modal .bottom_co_btn_item{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#clock_attendance_modal .alert{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+#clock_attendance_modal .curr_date_attendance_wrap{
+    display: flex;
+    justify-content: center;
+}
+#clock_attendance_modal .curr_date{
+    background-color:#bbbab7;
+    width: 200px;
+    border-radius: 3px;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+#clock_attendance_modal .curr_date i{
+ line-height: 30px;
+}
+
+#clock_attendance_modal .curr_date .btn-edit-datetime, #clock_attendance_modal .curr_date .btn-close-edit-datetime {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    color: #000;
+    height: 33px;
+}
+#clock_attendance_modal .form-group{
+    margin-bottom: 2px;
+}
+#clock_attendance_modal .form-group label[for="edit_date"]{
+    font-family: 'roboto';
+}
+#edit_date, #curr_date_attendance .input-group.date .input-group-addon{
+    height: 40px;
+}
+#curr_date_attendance .input-group.date .input-group-addon{
+    padding: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.min-width-200{
+    min-width: 200px;
+}
+.min-width-100{
+    min-width: 70px;
+}
+.dt-table-loading.table, .table-loading .dataTables_filter, .table-loading .dataTables_length, .table-loading .dt-buttons, .table-loading table tbody tr, .table-loading table thead th {
+	opacity: 1!important;
+}
+.mt-0{	margin-top: 0; }
+.mb-0{	margin-bottom: 0; }
+.pt-1{	padding-top: 1px; }
+.pt-2{	padding-top: 2px; }
+.pt-3{	padding-top: 3px; }
+.pt-4{	padding-top: 4px; }
+.pt-5{	padding-top: 5px; }
+.pt-6{	padding-top: 6px; }
+.pt-7{	padding-top: 7px; }
+.pt-8{	padding-top: 8px; }
+.pt-9{	padding-top: 9px; }
+.pt-10{	padding-top: 10px; }
+.hover{	display: none; }
+.item_hover:hover .hover{ display: block; }
+.w-100{
+	width: 100%;
+} 
+.h-100{
+	height: 100%;
+} 
+.border-none{
+	border: none;
+}
+.cursor-pointer{
+	cursor: pointer;
+}
+.mr-7{
+	margin-right: 7px;
+}
+.bg-fab017{
+	background-color: #fab017;
+}
+.p-5{
+	padding: 5px;
+}
+.organizational{
+	border-radius: 4px 4px 0px 0px;
+	color: white;
+	padding: 5px;
+	min-width: 195px;
+}
+.zen_unit_chart{
+	height: 35px;
+}
+.h5-color {
+    color: #d8341b;
+}
+.hr-color {
+    margin-top: 10px;
+    border-bottom: 0.5px solid;
+    color: #d8341b;
+}
+
+body.dependent_persons .label-success:hover,
+body.dependent_persons .label-success:active {
+    background: rgb(110, 160, 41);
+    border: rgb(132, 197, 41);
+    color: #ffffff !important;
+}
+
+body.dependent_persons .label-success, body.resignation_procedures .label-success, body.knowledge_base_q_a .label-success, body.contracts .label-success, body.hr_profile .label-success,  body.hr_profile .contract-ribbonc-success  {
+    background: rgb(132, 197, 41);
+    border: rgb(132, 197, 41);
+    color: #ffffff !important;
+}
+
+body.dependent_persons .label-danger, body.contracts .label-danger, body.hr_profile .label-danger,  body.hr_profile .contract-ribbonc-danger {
+    background: rgba(244, 3, 47, 0.59);
+    border: 1px solid rgb(248, 106, 132);
+    color: #ffffff !important;
+}
+body.dependent_persons .label-primary, body.resignation_procedures .label-primary, body.hr_profile .label-primary, body.hr_profile .contract-ribbonc-primary {
+    background: rgba(40, 184, 218, 0.93);
+    border: 1px solid rgb(40, 184, 218);
+    color: #ffffff !important;
+}
+body.dependent_persons .label-warning, body.hr_profile .label-warning, body.hr_profile .contract-ribbonc-warning {
+    background: rgba(255, 152, 0, 1);
+    border: 1px solid rgb(255, 152, 0);
+    color: #ffffff !important;
+}
+
+
+.resignation-procedures-modal{
+    padding: 10px 10px;
+}
+
+input#kb_article_files {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    opacity: 0;
+    outline: 0;
+    background: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+.publisher-tools-tab.attach {
+    position: relative;
+    overflow: hidden;
+}
+
+.publisher-tools-tab {
+    display: block;
+    background: #f7f7f7;
+    padding: 7px 14px;
+    color: #7f838a;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+th.th-color{
+    color: #fff !important;
+    background-color: #2d2d2d;
+}
+.att-background-color{
+    background-color: #f1f5fa;
+}
+
+.staff-chart-background-color{
+    background-color: #fab017;
+    border-radius: 4px 4px 0px 0px;
+    color: white;
+    padding: 5px;min-width: 195px;
+}
+
+.staff-chart-margin{
+    margin-right:7px
+}
+
+.articles-width{
+    width:300px;
+}
+.table-margintop{
+    margin-top: 0px !important;
+}
+.signature-pad--body {
+    border-radius: 4px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border: 1px solid #c0cbda;
+}
+
+.hr-img-responsive {
+    width: 300px;
+    height: auto;
+}
+#box-loading{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	opacity: 0.8;
+	z-index: 999;
+	display: none;
+}
+#box-loading img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	width: 100px;
+	height: 100px;
+}
+.hanson-btn{
+	padding: unset;
+	width: 100%;
+	margin: 0;
+	margin-top: 4px;
+}

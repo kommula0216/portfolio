@@ -1,0 +1,624 @@
+/* Styling for the modal body */
+.modal-body {
+    padding-top: 0;
+    padding-bottom: 10px;
+    background: #f0f5f7;
+    border-bottom-left-radius: 6px;
+    border border-bottom-left-radius: 6px; /* There seems to be a typo here with the "border" property being repeated, so I removed the duplicate "border" */
+}
+
+/* Setting the background color for all elements */
+* {
+    background-color: #E6E6FA;
+}
+
+/* Styling for the picture container */
+.picture-container {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Styling for the picture element */
+.picture {
+    width: 170px;
+    height: 170px;
+    background-color: #999999;
+    border: 4px solid #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+}
+
+/* Styling for the picture source element */
+.picture-src {
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling for the file input element */
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Styling for the checkbox when it is checked */
+.checkbox-primary input[type="checkbox"]:checked+label:before {
+    color: #fff;
+    background-color: #1ab394;
+    border-color: #1ab394;
+}
+
+/* Styling for the clearfix class */
+.clearfix {
+    clear: both;
+}
+
+/* Styling for the row class */
+.row {
+    margin: 10px 0;
+}
+
+/* Styling for the form group class */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Styling for the control label element */
+.control-label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styling for the form control element */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+/* Styling for the form control element when it is focused */
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+/* Additional styling for the row class */
+.row {
+    margin: 20px 0;
+}
+/* Update font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #444;
+    }
+    
+    /* Update form group margins */
+    .form-group {
+    margin-bottom: 15px;
+    }
+    
+    /* Update control label styles */
+    .control-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    /* Update form control styles */
+    .form-control {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    
+    /* Update select picker styles */
+    .selectpicker {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    
+    /* Update input group styles */
+    .input-group-addon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    
+    /* Update row margins */
+    .row {
+    margin-bottom: 30px;
+    }
+    
+    /* Update button styles */
+    .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 2px solid #555;
+    border-radius: 30px;
+    color: #555;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .btn:hover {
+    color: #fff;
+    background-color: #555;
+    }
+    .control-label {
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+      
+      .selectpicker {
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+      
+      .selectpicker option {
+        font-size: 14px;
+        color: #555;
+      }
+      
+      .selectpicker .dropdown-toggle {
+        height: 34px;
+        line-height: 30px;
+      }
+      
+      .selectpicker .dropdown-toggle .filter-option {
+        font-size: 14px;
+        color: #555;
+      }
+      
+      .selectpicker .dropdown-menu {
+        max-height: 200px;
+        overflow-y: auto;
+      }
+      
+      .datepicker {
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+      
+      .calendar-icon {
+        font-size: 18px;
+      }
+      
+      .clearfix:before,
+      .clearfix:after {
+        content: " ";
+        display: table;
+      }
+      
+      .clearfix:after {
+        clear: both;
+      }
+      
+      
+       /* Change the font size and color of the label */
+    .control-label {
+        font-size: 16px;
+        color: #333;
+      }
+      /* Change the background color and font size of the select dropdown */
+      .selectpicker {
+        background-color: #f2f2f2;
+        font-size: 14px;
+      }
+      
+      /* Change the font size and color of the selected option */
+      .selectpicker option[selected] {
+        font-size: 14px;
+        color: #333;
+      }
+ /* Set font family and size for the whole form */
+form {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Increase space between form groups */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Change the font size and color of the label */
+  .control-label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Change the background color and font size of the select dropdown */
+  .selectpicker {
+    background-color: #f2f2f2;
+    font-size: 14px;
+  }
+  
+  /* Change the font size and color of the selected option */
+  .selectpicker option[selected] {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Style form inputs and buttons */
+  .form-control,
+  .btn {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  
+  /* Add focus styles for form inputs */
+  .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+  }
+  
+  /* Style form buttons */
+  .btn {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  /* Add margin-bottom to form rows */
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the calendar icon */
+  .calendar-icon {
+    font-size: 18px;
+    color: #555;
+    margin-left: 5px;
+  }
+  
+  /* Add clearfix to form groups */
+  .form-group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+      /* Add padding to the select dropdown */
+.selectpicker + .bootstrap-select {
+    margin-top: 10px;
+    padding: 6px 12px;
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Form control styles */
+  .form-control,
+  input[type="text"],
+  textarea {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  
+  /* Form control focus styles */
+  .form-control:focus,
+  select.selectpicker:focus,
+  input[type="text"]:focus,
+  textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  }
+  
+  /* Select picker styles */
+  .selectpicker {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  
+  /* Input group addon styles */
+  .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  /* General styling for form elements */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    }
+    
+    .checkbox {
+    margin-top: 0;
+    margin-bottom: 10px;
+    }
+    
+    .checkbox label {
+    font-weight: normal;
+    }
+    
+    .custom-field-inline-edit-link {
+    margin-left: 5px;
+    color: #ccc;
+    }
+    
+    .custom-field-inline-edit-link:hover {
+    color: #555;
+    }
+    
+    #email_signature, #orther_infor {
+    height: 100px;
+    }
+    
+    .custom-fields-form-row {
+    margin-top: 20px;
+    }
+    
+    .date {
+    position: relative;
+    }
+    
+    .date .form-control {
+    padding-right: 30px;
+    }
+    
+    .date .calendar-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ccc;
+    cursor: pointer;
+    }
+    
+    /* Styling for specific form elements */
+    #direction {
+    height: 38px;
+    }
+    
+    .selectpicker {
+    padding: 10px;
+    }
+    
+    .fa-question-circle {
+    margin-top: 8px;
+    margin-right: 5px;
+    color: #ccc;
+    }
+    
+    /* Styling for form rows and sections */
+    .row {
+    margin: 0 auto;
+    padding: 10px;
+    }
+    
+    .hr-10 {
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    margin: 20px 0;
+    }
+    
+    /* Styling for checkbox inputs */
+    .checkbox-primary input[type="checkbox"] {
+    display: none;
+    }
+    
+    .checkbox-primary input[type="checkbox"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    vertical-align: middle;
+    }
+    
+    .checkbox-primary input[type="checkbox"]:checked + label:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 14px;
+    color: #3c763d;
+    text-align: center;
+    line-height: 16px;
+    background-color: #fff;
+    border-color: #3c763d;
+    }
+    
+    /* Styling for fake autofill fields */
+    .fake-autofill-field {
+    display: none;
+    }
+    
+    /* Styling for form groups and labels */
+    .form-group {
+    clear: both;
+    margin: 15px 0;
+    }
+    
+    .control-label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    /* Styling for the password input field when it is focused */
+.password:focus {
+    outline: none;
+    border-color: #5cb85c; /* green color */
+  }
+  
+  /* Styling for the show password button when it is hovered */
+  .show_password:hover {
+    color: #333; /* dark gray color */
+  }
+  
+  /* Styling for the generate password button when it is hovered */
+  .generate_password:hover {
+    color: #333; /* dark gray color */
+  }
+  
+  /* Styling for the password strength indicator */
+  .password_strength {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .password_strength span {
+    margin-right: 5px;
+  }
+  
+  .password_strength .progress {
+    flex-grow: 1;
+    margin: 0 5px;
+  }
+  
+  .password_strength .progress-bar {
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Styling for the password strength levels */
+  .password_strength .weak {
+    color: #d9534f; /* red color */
+  }
+  
+  .password_strength .medium {
+    color: #f0ad4e; /* orange color */
+  }
+  
+  .password_strength .strong {
+    color: #5cb85c;
+  }
+  
+  .password_strength .very-strong {
+    color: #5cb85c;
+  }
+  
